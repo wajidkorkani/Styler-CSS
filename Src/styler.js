@@ -2,6 +2,8 @@ let css = '';
 for (let i = 1; i <= 4000; i++) {
   css += `.w-${i} { width: ${i}px; }\n`;
   css += `.h-${i} { height: ${i}px; }\n`;
+  css += `.max-w-${i} { max-width: ${i}px; }\n`;
+  css += `.max-h-${i} { max-height: ${i}px; }\n`;
   css += `.m-t-${i} { margin-top: ${i}px; }\n`;
   css += `.m-b-${i} { margin-bottom: ${i}px; }\n`;
   css += `.m-r-${i} { margin-right: ${i}px; }\n`;
