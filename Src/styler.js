@@ -9,6 +9,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `.p-${i} { padding: ${i}px; }\n`;
   css += `.col-span-${i} { grid-column-start: span ${i}; }\n`;
   css += `.row-span-${i} { grid-row-start: span ${i}; }\n`;
+  css += `.img-${i} { background-size: cover; background-position: center; }\n`;
 
   // Media query section for small size
   css += `@media (max-width: 767px) { .small\\:w-${i} { width: ${i}px; } }\n`;
