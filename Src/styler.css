@@ -2846,3 +2846,1246 @@
 .w-full{
     width: 100%;
 }
+
+/* Font styles */
+
+/* @font-face rules for each font */
+@font-face {
+    font-family: 'arial-black';
+    src: local('Arial Black'), url('ArialBlack.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'cambria';
+    src: local('Cambria'), url('Cambria.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'comic-sans-ms';
+    src: local('Comic Sans MS'), url('ComicSansMS.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'consolas';
+    src: local('Consolas'), url('Consolas.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'rockwell';
+    src: local('Rockwell'), url('Rockwell.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'courier';
+    src: local('Courier'), url('Courier.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'baskerville';
+    src: local('Baskerville'), url('Baskerville.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'bodoni';
+    src: local('Bodoni'), url('Bodoni.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'cooper-black';
+    src: local('Cooper Black'), url('CooperBlack.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'didot';
+    src: local('Didot'), url('Didot.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'futura';
+    src: local('Futura'), url('Futura.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'gill-sans';
+    src: local('Gill Sans'), url('GillSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'avenir';
+    src: local('Avenir'), url('Avenir.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'brush-script';
+    src: local('Brush Script'), url('BrushScript.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'impact';
+    src: local('Impact'), url('Impact.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'palatino-linotype';
+    src: local('Palatino Linotype'), url('PalatinoLinotype.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'perpetua';
+    src: local('Perpetua'), url('Perpetua.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-print';
+    src: local('Segoe Print'), url('SegoePrint.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-script';
+    src: local('Segoe Script'), url('SegoeScript.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-ui';
+    src: local('Segoe UI'), url('SegoeUI.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'roboto';
+    src: local('Roboto'), url('Roboto.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'open-sans';
+    src: local('Open Sans'), url('OpenSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'montserrat';
+    src: local('Montserrat'), url('Montserrat.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'lato';
+    src: local('Lato'), url('Lato.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'ubuntu';
+    src: local('Ubuntu'), url('Ubuntu.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'droid-sans';
+    src: local('Droid Sans'), url('DroidSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'noto-serif';
+    src: local('Noto Serif'), url('NotoSerif.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'playfair-display';
+    src: local('Playfair Display'), url('PlayfairDisplay.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'merriweather';
+    src: local('Merriweather'), url('Merriweather.ttf') format('truetype');
+  }
+
+
+  @font-face {
+    font-family: 'arial-black';
+    src: local('Arial Black'), url('ArialBlack.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'cambria';
+    src: local('Cambria'), url('Cambria.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'comic-sans-ms';
+    src: local('Comic Sans MS'), url('ComicSansMS.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'consolas';
+    src: local('Consolas'), url('Consolas.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'rockwell';
+    src: local('Rockwell'), url('Rockwell.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'courier';
+    src: local('Courier'), url('Courier.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'baskerville';
+    src: local('Baskerville'), url('Baskerville.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'bodoni';
+    src: local('Bodoni'), url('Bodoni.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'cooper-black';
+    src: local('Cooper Black'), url('CooperBlack.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'didot';
+    src: local('Didot'), url('Didot.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'futura';
+    src: local('Futura'), url('Futura.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'gill-sans';
+    src: local('Gill Sans'), url('GillSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'avenir';
+    src: local('Avenir'), url('Avenir.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'brush-script';
+    src: local('Brush Script'), url('BrushScript.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'impact';
+    src: local('Impact'), url('Impact.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'palatino-linotype';
+    src: local('Palatino Linotype'), url('PalatinoLinotype.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'perpetua';
+    src: local('Perpetua'), url('Perpetua.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-print';
+    src: local('Segoe Print'), url('SegoePrint.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-script';
+    src: local('Segoe Script'), url('SegoeScript.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'segoe-ui';
+    src: local('Segoe UI'), url('SegoeUI.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'roboto';
+    src: local('Roboto'), url('Roboto.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'open-sans';
+    src: local('Open Sans'), url('OpenSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'montserrat';
+    src: local('Montserrat'), url('Montserrat.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'lato';
+    src: local('Lato'), url('Lato.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'ubuntu';
+    src: local('Ubuntu'), url('Ubuntu.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'droid-sans';
+    src: local('Droid Sans'), url('DroidSans.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'noto-serif';
+    src: local('Noto Serif'), url('NotoSerif.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'playfair-display';
+    src: local('Playfair Display'), url('PlayfairDisplay.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'merriweather';
+    src: local('Merriweather'), url('Merriweather.ttf') format('truetype');
+  }
+   
+  
+
+
+  /* Font classes */
+  .arial-black-font {
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .cambria-font {
+    font-family: 'Cambria', serif;
+  }
+  
+  .comic-sans-ms-font {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .consolas-font {
+    font-family: 'Consolas', monospace;
+  }
+  
+  .rockwell-font {
+    font-family: 'Rockwell', serif;
+  }
+  
+  .courier-font {
+    font-family: 'Courier', monospace;
+  }
+  
+  .baskerville-font {
+    font-family: 'Baskerville', serif;
+  }
+  
+  .bodoni-font {
+    font-family: 'Bodoni', serif;
+  }
+  
+  .cooper-black-font {
+    font-family: 'Cooper Black', sans-serif;
+  }
+  
+  .didot-font {
+    font-family: 'Didot', serif;
+  }
+  
+  .futura-font {
+    font-family: 'Futura', sans-serif;
+  }
+  
+  .gill-sans-font {
+    font-family: 'Gill Sans', sans-serif;
+  }
+  
+  .avenir-font {
+    font-family: 'Avenir', sans-serif;
+  }
+  
+  .brush-script-font {
+    font-family: 'Brush Script', cursive;
+  }
+  
+  .impact-font {
+    font-family: 'Impact', sans-serif;
+  }
+  
+  .palatino-linotype-font {
+    font-family: 'Palatino Linotype', serif;
+  }
+  
+  .perpetua-font {
+    font-family: 'Perpetua', serif;
+  }
+  
+  .segoe-print-font {
+    font-family: 'Segoe Print', sans-serif;
+  }
+  
+  .segoe-script-font {
+    font-family: 'Segoe Script', cursive;
+  }
+  
+  .segoe-ui-font {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .roboto-font {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .lato-font {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .ubuntu-font {
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .droid-sans-font {
+    font-family: 'Droid Sans', sans-serif;
+  }
+  
+  .noto-serif-font {
+    font-family: 'Noto Serif', serif;
+  }
+  
+  .playfair-display-font {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .merriweather-font {
+    font-family: 'Merriweather', serif;
+  }
+  
+
+.fantasy-font {
+    font-family: fantasy, sans-serif;
+}
+
+.monaco-font {
+    font-family: Monaco, monospace;
+}
+
+.impact-font {
+    font-family: Impact, sans-serif;
+}
+
+.courier-new-font {
+    font-family: 'Courier New', monospace;
+}
+
+.chalkboard-font {
+    font-family: Chalkboard, fantasy;
+}
+
+.bell-mt-font {
+    font-family: 'Bell MT', serif;
+}
+
+.american-typewriter-font {
+    font-family: 'American Typewriter', sans-serif;
+}
+
+.copperplate-font {
+    font-family: Copperplate, serif;
+}
+
+.lucida-sans-font {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.gill-sans-font {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.book-antiqua-font {
+    font-family: 'Book Antiqua', serif;
+}
+
+.bodoni-mt-font {
+    font-family: 'Bodoni MT', serif;
+}
+
+.garamond-font {
+    font-family: Garamond, serif;
+}
+
+.rockwell-font {
+    font-family: Rockwell, serif;
+}
+
+.papyrus-font {
+    font-family: Papyrus, fantasy;
+}
+
+.brush-script-font {
+    font-family: 'Brush Script', cursive;
+}
+
+.cooper-font {
+    font-family: Cooper, sans-serif;
+}
+
+.optima-font {
+    font-family: Optima, sans-serif;
+}
+
+.bauhaus-font {
+    font-family: Bauhaus, sans-serif;
+}
+
+.futura-font {
+    font-family: Futura, sans-serif;
+}
+
+.trajan-font {
+    font-family: Trajan, serif;
+}
+
+.franklin-gothic-font {
+    font-family: 'Franklin Gothic', sans-serif;
+}
+
+.geneva-font {
+    font-family: Geneva, sans-serif;
+}
+
+.trebuchet-font {
+    font-family: Trebuchet, sans-serif;
+}
+
+.calibri-font {
+    font-family: Calibri, sans-serif;
+}
+
+.myriad-pro-font {
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.corbel-font {
+    font-family: Corbel, sans-serif;
+}
+
+.segoe-ui-font {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.lemon-font {
+    font-family: 'Lemon', cursive;
+}
+
+
+.arial-black-font {
+    font-family: 'Arial Black', sans-serif;
+}
+
+.cambria-font {
+    font-family: 'Cambria', serif;
+}
+
+.comic-sans-ms-font {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.consolas-font {
+    font-family: 'Consolas', monospace;
+}
+
+.rockwell-font {
+    font-family: 'Rockwell', serif;
+}
+
+.courier-font {
+    font-family: 'Courier', monospace;
+}
+
+.baskerville-font {
+    font-family: 'Baskerville', serif;
+}
+
+.bodoni-font {
+    font-family: 'Bodoni', serif;
+}
+
+.cooper-black-font {
+    font-family: 'Cooper Black', sans-serif;
+}
+
+.didot-font {
+    font-family: 'Didot', serif;
+}
+
+.futura-font {
+    font-family: 'Futura', sans-serif;
+}
+
+.gill-sans-font {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.avenir-font {
+    font-family: 'Avenir', sans-serif;
+}
+
+.brush-script-font {
+    font-family: 'Brush Script', cursive;
+}
+
+.impact-font {
+    font-family: 'Impact', sans-serif;
+}
+
+.palatino-linotype-font {
+    font-family: 'Palatino Linotype', serif;
+}
+
+.perpetua-font {
+    font-family: 'Perpetua', serif;
+}
+
+.segoe-print-font {
+    font-family: 'Segoe Print', sans-serif;
+}
+
+.segoe-script-font {
+    font-family: 'Segoe Script', cursive;
+}
+
+.segoe-ui-font {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.open-sans-font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lato-font {
+    font-family: 'Lato', sans-serif;
+}
+
+.ubuntu-font {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.droid-sans-font {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.noto-serif-font {
+    font-family: 'Noto Serif', serif;
+}
+
+.playfair-display-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.merriweather-font {
+    font-family: 'Merriweather', serif;
+}
+
+  /* Font styles */
+  
+  /* Font classes */
+  .fantasy-font {
+      font-family: fantasy, sans-serif;
+    }
+    
+    .monaco-font {
+      font-family: Monaco, monospace;
+    }
+    
+    .impact-font {
+      font-family: Impact, sans-serif;
+    }
+    
+    .courier-new-font {
+      font-family: 'Courier New', monospace;
+    }
+    
+    .chalkboard-font {
+      font-family: Chalkboard, fantasy;
+    }
+    
+    .bell-mt-font {
+      font-family: 'Bell MT', serif;
+    }
+    
+    .american-typewriter-font {
+      font-family: 'American Typewriter', sans-serif;
+    }
+    
+    .copperplate-font {
+      font-family: Copperplate, serif;
+    }
+    
+    .lucida-sans-font {
+      font-family: 'Lucida Sans', sans-serif;
+    }
+    
+    .gill-sans-font {
+      font-family: 'Gill Sans', sans-serif;
+    }
+    
+    .book-antiqua-font {
+      font-family: 'Book Antiqua', serif;
+    }
+    
+    .bodoni-mt-font {
+      font-family: 'Bodoni MT', serif;
+    }
+    
+    .garamond-font {
+      font-family: Garamond, serif;
+    }
+    
+    .rockwell-font {
+      font-family: Rockwell, serif;
+    }
+    
+    .papyrus-font {
+      font-family: Papyrus, fantasy;
+    }
+    
+    .brush-script-font {
+      font-family: 'Brush Script', cursive;
+    }
+    
+    .cooper-font {
+      font-family: Cooper, sans-serif;
+    }
+    
+    .optima-font {
+      font-family: Optima, sans-serif;
+    }
+    
+    .bauhaus-font {
+      font-family: Bauhaus, sans-serif;
+    }
+    
+    .futura-font {
+      font-family: Futura, sans-serif;
+    }
+    
+    .trajan-font {
+      font-family: Trajan, serif;
+    }
+    
+    .franklin-gothic-font {
+      font-family: 'Franklin Gothic', sans-serif;
+    }
+    
+    .geneva-font {
+      font-family: Geneva, sans-serif;
+    }
+    
+    .trebuchet-font {
+      font-family: Trebuchet, sans-serif;
+    }
+    
+    .calibri-font {
+      font-family: Calibri, sans-serif;
+    }
+    
+    .myriad-pro-font {
+      font-family: 'Myriad Pro', sans-serif;
+    }
+    
+    .corbel-font {
+      font-family: Corbel, sans-serif;
+    }
+    
+    .segoe-ui-font {
+      font-family: 'Segoe UI', sans-serif;
+    }
+    
+    .lemon-font {
+      font-family: 'Lemon', cursive;
+    }
+  
+    
+  /* Font styles */
+  
+  /* Font classes */
+  .ubuntu-font {
+      font-family: Ubuntu, sans-serif;
+    }
+    
+    .source-sans-pro-font {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .rubik-font {
+      font-family: Rubik, sans-serif;
+    }
+    
+    .raleway-font {
+      font-family: Raleway, sans-serif;
+    }
+    
+    .oswald-font {
+      font-family: Oswald, sans-serif;
+    }
+    
+    .montserrat-font {
+      font-family: Montserrat, sans-serif;
+    }
+    
+    .lobster-font {
+      font-family: Lobster, cursive;
+    }
+    
+    .lato-font {
+      font-family: Lato, sans-serif;
+    }
+    
+    .inconsolata-font {
+      font-family: Inconsolata, monospace;
+    }
+    
+    .hind-font {
+      font-family: Hind, sans-serif;
+    }
+    
+    .open-sans-font {
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    .nunito-font {
+      font-family: Nunito, sans-serif;
+    }
+    
+    .merriweather-font {
+      font-family: Merriweather, serif;
+    }
+    
+    .montserrat-font {
+      font-family: Montserrat, sans-serif;
+    }
+    
+    .quicksand-font {
+      font-family: Quicksand, sans-serif;
+    }
+    
+    .poppins-font {
+      font-family: Poppins, sans-serif;
+    }
+    
+    .roboto-font {
+      font-family: Roboto, sans-serif;
+    }
+    
+    .roboto-slab-font {
+      font-family: 'Roboto Slab', serif;
+    }
+    
+    .spectral-font {
+      font-family: Spectral, serif;
+    }
+    
+    .raleway-font {
+      font-family: Raleway, sans-serif;
+    }
+    
+    .pt-serif-font {
+      font-family: 'PT Serif', serif;
+    }
+    
+    .playfair-display-font {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .rajdhani-font {
+      font-family: Rajdhani, sans-serif;
+    }
+    
+    .roboto-condensed-font {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .russo-one-font {
+      font-family: 'Russo One', sans-serif;
+    }
+    
+    .sansita-font {
+      font-family: Sansita, sans-serif;
+    }
+    
+    .sarabun-font {
+      font-family: Sarabun, sans-serif;
+    }
+    
+    .work-sans-font {
+      font-family: 'Work Sans', sans-serif;
+    }
+    
+    .zilla-slab-font {
+      font-family: 'Zilla Slab', serif;
+    }
+    
+  .quattrocento-font {
+      font-family: 'Quattrocento', serif;
+    }
+    
+    .archivo-font {
+      font-family: 'Archivo', sans-serif;
+    }
+    
+    .antic-slab-font {
+      font-family: 'Antic Slab', serif;
+    }
+    
+    .arvo-font {
+      font-family: 'Arvo', serif;
+    }
+    
+    .baloo-font {
+      font-family: 'Baloo', cursive;
+    }
+    
+    .bree-serif-font {
+      font-family: 'Bree Serif', serif;
+    }
+    
+    .cabin-font {
+      font-family: 'Cabin', sans-serif;
+    }
+    
+    .changa-font {
+      font-family: 'Changa', sans-serif;
+    }
+    
+    .cinzel-font {
+      font-family: 'Cinzel', serif;
+    }
+    
+    .dosis-font {
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    .eb-garamond-font {
+      font-family: 'EB Garamond', serif;
+    }
+    
+    .fredericka-font {
+      font-family: 'Fredericka the Great', cursive;
+    }
+    
+    .fugaz-one-font {
+      font-family: 'Fugaz One', cursive;
+    }
+    
+    .josefin-sans-font {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .julius-sans-one-font {
+      font-family: 'Julius Sans One', sans-serif;
+    }
+    
+    .kalam-font {
+      font-family: 'Kalam', cursive;
+    }
+    
+    .karla-font {
+      font-family: 'Karla', sans-serif;
+    }
+    
+    .lora-font {
+      font-family: 'Lora', serif;
+    }
+    
+    .montserrat-font {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .oxygen-font {
+      font-family: 'Oxygen', sans-serif;
+    }
+    
+    .patua-one-font {
+      font-family: 'Patua One', cursive;
+    }
+    
+    .quicksand-font {
+      font-family: 'Quicksand', sans-serif;
+    }
+    
+    .roboto-font {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .rosario-font {
+      font-family: 'Rosario', sans-serif;
+    }
+    
+    .sarala-font {
+      font-family: 'Sarala', sans-serif;
+    }
+    
+    .spectral-font {
+      font-family: 'Spectral', serif;
+    }
+    
+    .titillium-web-font {
+      font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .zilla-slab-font {
+      font-family: 'Zilla Slab', serif;
+    }
+    
+    .zilla-slab-highlight-font {
+      font-family: 'Zilla Slab Highlight', sans-serif;
+    }
+    
+  /* Font styles */
+  
+  /* Font classes */
+  .montserrat-font {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .roboto-font {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .open-sans-font {
+      font-family: 'Open Sans', sans-serif;
+    }
+    
+    .raleway-font {
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    .lato-font {
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .pt-sans-font {
+      font-family: 'PT Sans', sans-serif;
+    }
+    
+    .source-serif-pro-font {
+      font-family: 'Source Serif Pro', serif;
+    }
+    
+    .source-code-pro-font {
+      font-family: 'Source Code Pro', monospace;
+    }
+    
+    .arial-black-font {
+      font-family: 'Arial Black', sans-serif;
+    }
+    
+    .trebuchet-ms-font {
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+    
+    .calibri-font {
+      font-family: 'Calibri', sans-serif;
+    }
+    
+    .candara-font {
+      font-family: 'Candara', sans-serif;
+    }
+    
+    .cambria-font {
+      font-family: 'Cambria', serif;
+    }
+    
+    .georgia-font {
+      font-family: 'Georgia', serif;
+    }
+    
+    .didot-font {
+      font-family: 'Didot', serif;
+    }
+    
+    .rockwell-font {
+      font-family: 'Rockwell', serif;
+    }
+    
+    .bookman-old-style-font {
+      font-family: 'Bookman Old Style', serif;
+    }
+    
+    .garamond-font {
+      font-family: 'Garamond', serif;
+    }
+    
+    .perpetua-font {
+      font-family: 'Perpetua', serif;
+    }
+    
+    .bell-mt-font {
+      font-family: 'Bell MT', serif;
+    }
+    
+    .constantia-font {
+      font-family: 'Constantia', serif;
+    }
+    
+    .courier-new-font {
+      font-family: 'Courier New', monospace;
+    }
+    
+    .lucida-console-font {
+      font-family: 'Lucida Console', monospace;
+    }
+    
+    .baskerville-font {
+      font-family: 'Baskerville', serif;
+    }
+    
+    .cooper-font {
+      font-family: 'Cooper', sans-serif;
+    }
+    
+    .franklin-gothic-font {
+      font-family: 'Franklin Gothic', sans-serif;
+    }
+    
+    .futura-font {
+      font-family: 'Futura', sans-serif;
+    }
+    
+    .gill-sans-font {
+      font-family: 'Gill Sans', sans-serif;
+    }
+    
+    .bauhaus-font {
+      font-family: 'Bauhaus 93', sans-serif;
+    }
+    
+  /* Font styles */
+  
+  /* Font classes */
+  .quattrocento-font {
+      font-family: 'Quattrocento', serif;
+    }
+    
+    .archivo-font {
+      font-family: 'Archivo', sans-serif;
+    }
+    
+    .antic-slab-font {
+      font-family: 'Antic Slab', serif;
+    }
+    
+    .arvo-font {
+      font-family: 'Arvo', serif;
+    }
+    
+    .baloo-font {
+      font-family: 'Baloo', cursive;
+    }
+    
+    .bree-serif-font {
+      font-family: 'Bree Serif', serif;
+    }
+    
+    .cabin-font {
+      font-family: 'Cabin', sans-serif;
+    }
+    
+    .changa-font {
+      font-family: 'Changa', sans-serif;
+    }
+    
+    .cinzel-font {
+      font-family: 'Cinzel', serif;
+    }
+    
+    .dosis-font {
+      font-family: 'Dosis', sans-serif;
+    }
+    
+    .eb-garamond-font {
+      font-family: 'EB Garamond', serif;
+    }
+    
+    .fredericka-font {
+      font-family: 'Fredericka the Great', cursive;
+    }
+    
+    .fugaz-one-font {
+      font-family: 'Fugaz One', cursive;
+    }
+    
+    .josefin-sans-font {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .julius-sans-one-font {
+      font-family: 'Julius Sans One', sans-serif;
+    }
+    
+    .kalam-font {
+      font-family: 'Kalam', cursive;
+    }
+    
+    .karla-font {
+      font-family: 'Karla', sans-serif;
+    }
+    
+    .lora-font {
+      font-family: 'Lora', serif;
+    }
+    
+    .montserrat-font {
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .oxygen-font {
+      font-family: 'Oxygen', sans-serif;
+    }
+    
+    .patua-one-font {
+      font-family: 'Patua One', cursive;
+    }
+    
+    .quicksand-font {
+      font-family: 'Quicksand', sans-serif;
+    }
+    
+    .roboto-font {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .rosario-font {
+      font-family: 'Rosario', sans-serif;
+    }
+    
+    .sarala-font {
+      font-family: 'Sarala', sans-serif;
+    }
+    
+    .spectral-font {
+      font-family: 'Spectral', serif;
+    }
+    
+    .titillium-web-font {
+      font-family: 'Titillium Web', sans-serif;
+    }
+    
+    .zilla-slab-font {
+      font-family: 'Zilla Slab', serif;
+    }
+    
+    .zilla-slab-highlight-font {
+      font-family: 'Zilla Slab Highlight', sans-serif;
+    }
+  
+    
