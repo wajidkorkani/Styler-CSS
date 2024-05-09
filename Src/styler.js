@@ -1,14 +1,22 @@
 let css = '';
 for (let i = 1; i <= 4000; i++) {
+
+  // Size section 
   css += `.w-${i} { width: ${i}px; }\n`;
   css += `.h-${i} { height: ${i}px; }\n`;
   css += `.max-w-${i} { max-width: ${i}px; }\n`;
   css += `.max-h-${i} { max-height: ${i}px; }\n`;
+
+  // Margin section 
   css += `.m-t-${i} { margin-top: ${i}px; }\n`;
   css += `.m-b-${i} { margin-bottom: ${i}px; }\n`;
   css += `.m-r-${i} { margin-right: ${i}px; }\n`;
   css += `.m-l-${i} { margin-left: ${i}px; }\n`;
+
+  // Padding section 
   css += `.p-${i} { padding: ${i}px; }\n`;
+
+  // Grid section 
   css += `.col-span-${i} { grid-column-start: span ${i}; }\n`;
   css += `.row-span-${i} { grid-row-start: span ${i}; }\n`;
 
