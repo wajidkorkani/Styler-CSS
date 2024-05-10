@@ -52,7 +52,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 768px) { .md\\:d-n { display: none; } }\n`;
   css += `@media (min-width: 768x) { .md\\:d-b { display: block; } }\n`;
   css += `@media (min-width: 768px) { .md\\:flex { display: flex; } }\n`;
-  css += `@media (min-width: 768x) { .md\\:grid { display: 'grid'; } }\n`;
+  css += `@media (min-width: 768x) { .md\\:grid { display: grid; } }\n`;
 
   // Media query section for large size
   css += `@media (min-width: 992px) { .lg\\:w-${i} { width: ${i}px; } }\n`;
