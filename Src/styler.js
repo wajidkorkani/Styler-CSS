@@ -60,10 +60,10 @@ for (let i = 1; i <= 4000; i++) {
 let smcss = '';
 let bgElements = document.querySelectorAll('[class*=sm\\:bg-]');
 bgElements.forEach(element => {
-  let colorClass = element.className.match(/sm\:bg\-(\S+)/);
-  if (colorClass && colorClass.length > 1) {
-    let colorName = colorClass[1];
-    smcss += `@media (min-width: 1200px) { .xl\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
+  let smcolorClass = element.className.match(/sm\:bg\-(\S+)/);
+  if (smcolorClass && smcolorClass.length > 1) {
+    let colorName = smcolorClass[1];
+    smcss += `@media (max-width: 767px) { .sm\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
   }
 });
 
@@ -104,10 +104,10 @@ xlbgElements.forEach(element => {
 });
 
 let styler = document.createElement('style');
-styler.textContent = smcss;
-styler.textContent = mdcss;
-styler.textContent = lgcss;
-styler.textContent = xlcss;
+styler.textContent += smcss;
+styler.textContent += mdcss;
+styler.textContent += lgcss;
+styler.textContent += xlcss;
 document.head.appendChild(styler);
 
 let style = document.createElement('style');
