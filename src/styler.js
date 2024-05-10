@@ -56,7 +56,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 1200px) { .xl\\:p-${i} { padding: ${i}px; } }\n`;
 }
 
-// Dynamic SCSS generation based on the color class in HTML markup
+// Dynamic CSS generation based on the color class in HTML markup
 let scss = '';
 let bgElements = document.querySelectorAll('[class*=sm\\:bg-]');
 bgElements.forEach(element => {
@@ -71,7 +71,7 @@ bgElements.forEach(element => {
 });
 
 
-// Dynamic SCSS generation based on the color class in HTML markup
+// Dynamic CSS generation based on the color class in HTML markup
 let mdcss = '';
 let mdbgElements = document.querySelectorAll('[class*=md\\:bg-]');
 mdbgElements.forEach(element => {
@@ -83,7 +83,7 @@ mdbgElements.forEach(element => {
 });
 
 
-// Dynamic SCSS generation based on the color class in HTML markup
+// Dynamic CSS generation based on the color class in HTML markup
 let lgscss = '';
 let lgbgElements = document.querySelectorAll('[class*=lg\\:bg-]');
 lgbgElements.forEach(element => {
@@ -95,7 +95,7 @@ lgbgElements.forEach(element => {
 });
 
 
-// Dynamic SCSS generation based on the color class in HTML markup
+// Dynamic CSS generation based on the color class in HTML markup
 let xlscss = '';
 let xlbgElements = document.querySelectorAll('[class*=xl\\:bg-]');
 xlbgElements.forEach(element => {
