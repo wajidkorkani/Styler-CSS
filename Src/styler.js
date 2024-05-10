@@ -29,6 +29,11 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (max-width: 767px) { .sm\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:d-n { display: 'none'; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:d-b { display: 'block'; } }\n`;
+
 
   // Media query section for medium size
   css += `@media (min-width: 768px) { .md\\:w-${i} { width: ${i}px; } }\n`;
@@ -40,6 +45,10 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 768px) { .md\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:d-n { display: 'none'; } }\n`;
+  css += `@media (min-width: 768x) { .md\\:d-b { display: 'block'; } }\n`;
 
   // Media query section for large size
   css += `@media (min-width: 992px) { .lg\\:w-${i} { width: ${i}px; } }\n`;
@@ -51,6 +60,10 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 992px) { .lg\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:d-n { display: 'none'; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:d-b { display: 'block'; } }\n`;
 
   // Media query section for extra large size
   css += `@media (min-width: 1200px) { .xl\\:w-${i} { width: ${i}px; } }\n`;
@@ -62,6 +75,10 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 1200px) { .xl\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:d-n { display: 'none'; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:d-b { display: 'block'; } }\n`;
 }
 
 // Dynamic CSS generation based on the color class in HTML markup
