@@ -57,16 +57,13 @@ for (let i = 1; i <= 4000; i++) {
 }
 
 // Dynamic CSS generation based on the color class in HTML markup
-let scss = '';
+let smcss = '';
 let bgElements = document.querySelectorAll('[class*=sm\\:bg-]');
 bgElements.forEach(element => {
   let colorClass = element.className.match(/sm\:bg\-(\S+)/);
   if (colorClass && colorClass.length > 1) {
     let colorName = colorClass[1];
-    scss += `@media (max-width: 767px) { .sm\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
-    scss += `@media (min-width: 768px) { .md\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
-    scss += `@media (min-width: 992px) { .lg\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
-    scss += `@media (min-width: 1200px) { .xl\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
+    smcss += `@media (min-width: 1200px) { .xl\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
   }
 });
 
@@ -78,36 +75,39 @@ mdbgElements.forEach(element => {
   let mdcolorClass = element.className.match(/md\:bg\-(\S+)/);
   if (mdcolorClass && mdcolorClass.length > 1) {
     let colorName = mdcolorClass[1];
-    scss += `@media (min-width: 768px) { .md\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
+    mdcss += `@media (min-width: 768px) { .md\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
   }
 });
 
 
 // Dynamic CSS generation based on the color class in HTML markup
-let lgscss = '';
+let lgcss = '';
 let lgbgElements = document.querySelectorAll('[class*=lg\\:bg-]');
 lgbgElements.forEach(element => {
   let lgcolorClass = element.className.match(/lg\:bg\-(\S+)/);
   if (lgcolorClass && lgcolorClass.length > 1) {
     let colorName = lgcolorClass[1];
-    scss += `@media (min-width: 992px) { .lg\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
+    lgcss += `@media (min-width: 992px) { .lg\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
   }
 });
 
 
 // Dynamic CSS generation based on the color class in HTML markup
-let xlscss = '';
+let xlcss = '';
 let xlbgElements = document.querySelectorAll('[class*=xl\\:bg-]');
 xlbgElements.forEach(element => {
   let xlcolorClass = element.className.match(/sm\:bg\-(\S+)/);
   if (xlcolorClass && xlcolorClass.length > 1) {
     let colorName = xlcolorClass[1];
-    scss += `@media (min-width: 1200px) { .xl\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
+    xlcss += `@media (min-width: 1200px) { .xl\\:bg-${colorName} { background-color: ${colorName}; } }\n`;
   }
 });
 
 let styler = document.createElement('style');
-styler.textContent = scss;
+styler.textContent = smcss;
+styler.textContent = mdcss;
+styler.textContent = lgcss;
+styler.textContent = xlcss;
 document.head.appendChild(styler);
 
 let style = document.createElement('style');
