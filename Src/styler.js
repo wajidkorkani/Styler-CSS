@@ -22,6 +22,8 @@ for (let i = 1; i <= 4000; i++) {
   // Media query section for small size
   css += `@media (max-width: 767px) { .sm\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-t-${i} { margin-top: ${i}px; } }\n`;
@@ -31,6 +33,8 @@ for (let i = 1; i <= 4000; i++) {
   // Media query section for medium size
   css += `@media (min-width: 768px) { .md\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-t-${i} { margin-top: ${i}px; } }\n`;
@@ -40,6 +44,8 @@ for (let i = 1; i <= 4000; i++) {
   // Media query section for large size
   css += `@media (min-width: 992px) { .lg\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-t-${i} { margin-top: ${i}px; } }\n`;
@@ -49,6 +55,8 @@ for (let i = 1; i <= 4000; i++) {
   // Media query section for extra large size
   css += `@media (min-width: 1200px) { .xl\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-t-${i} { margin-top: ${i}px; } }\n`;
