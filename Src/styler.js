@@ -22,38 +22,71 @@ for (let i = 1; i <= 4000; i++) {
   // Media query section for small size
   css += `@media (max-width: 767px) { .sm\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .sm\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:d-n { display: none; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:d-b { display: block; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:flex { display: flex; } }\n`;
+  css += `@media (max-width: 767px) { .sm\\:grid { display: grid; } }\n`;
+
 
   // Media query section for medium size
   css += `@media (min-width: 768px) { .md\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .md\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:d-n { display: none; } }\n`;
+  css += `@media (min-width: 768x) { .md\\:d-b { display: block; } }\n`;
+  css += `@media (min-width: 768px) { .md\\:flex { display: flex; } }\n`;
+  css += `@media (min-width: 768x) { .md\\:grid { display: grid; } }\n`;
 
   // Media query section for large size
   css += `@media (min-width: 992px) { .lg\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .lg\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:d-n { display: none; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:d-b { display: block; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:flex { display: flex; } }\n`;
+  css += `@media (min-width: 992px) { .lg\\:grid { display: grid; } }\n`;
 
   // Media query section for extra large size
   css += `@media (min-width: 1200px) { .xl\\:w-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:h-${i} { height: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:max-w-${i} { max-width: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:max-h-${i} { max-height: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-r-${i} { margin-right: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-l-${i} { margin-left: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-t-${i} { margin-top: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:m-b-${i} { margin-bottom: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:p-${i} { padding: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:b-r-${i} { border-radius: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:b-w-${i} { border-width: ${i}px; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:d-n { display: none; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:d-b { display: block; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:flex { display: flex; } }\n`;
+  css += `@media (min-width: 1200px) { .xl\\:grid { display: grid; } }\n`;
 }
 
 // Dynamic CSS generation based on the color class in HTML markup
