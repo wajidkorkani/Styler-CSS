@@ -1,4 +1,4 @@
-export function Text_Color_With_Media_Query(){
+
     let smt = '';
     let bgElementsC = document.querySelectorAll('[class*=sm\\:t-]');
     bgElementsC.forEach(element => {
@@ -52,7 +52,3 @@ export function Text_Color_With_Media_Query(){
     Text_style.textContent += lgt;
     document.head.appendChild(Text_style);
 
-}
-
-
-Text_Color_With_Media_Query();
