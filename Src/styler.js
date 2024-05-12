@@ -1,4 +1,10 @@
+import "./media_query.js";
+
 let css = '';
+
+// Rest of your code...
+
+
 for (let i = 1; i <= 4000; i++) {
   // Size section 
   css += `.w-${i} { width: ${i}px; }\n`;
@@ -101,6 +107,7 @@ bgElements.forEach(element => {
 });
 
 
+
 // Dynamic CSS generation based on the color class in HTML markup
 let mdcss = '';
 let mdbgElements = document.querySelectorAll('[class*=md\\:bg-]');
@@ -146,3 +153,5 @@ document.head.appendChild(styler);
 let style = document.createElement('style');
 style.textContent = css;
 document.head.appendChild(style);
+
+
