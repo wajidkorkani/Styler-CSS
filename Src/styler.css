@@ -4124,12 +4124,14 @@
 
 /* CSS animation  */
 
-.tooltip {
+/* This one is for top  */
+
+.tooltip-top {
     position: relative;
     display: inline-block;
   }
   
-  .tooltip .tooltiptext {
+  .tooltip-top .tooltiptext-top {
     width: 120px;
     bottom: 100%;
     left: 50%;
@@ -4142,6 +4144,82 @@
     z-index: 1;
   }
   
-  .tooltip:hover .tooltiptext {
+  .tooltip-top:hover .tooltiptext-top {
+    visibility: visible;
+  }
+
+  /* This one is for bottom */
+
+  .tooltip-bottom {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-bottom .tooltiptext-bottom{
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    visibility: hidden;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip-bottom:hover .tooltiptext-bottom {
+    visibility: visible;
+  }
+
+
+
+
+/* This one is for right  */
+
+.tooltip-right {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-right .tooltiptext-right {
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    top: -5px;
+    right: 105%; 
+    margin-left: -60px;
+    visibility: hidden;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip-right:hover .tooltiptext-right {
+    visibility: visible;
+  }
+
+  /* This one is for left */
+
+  .tooltip-left {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-left .tooltiptext-left {
+    visibility: hidden;
+    width: 120px;
+    top: -5px;
+    left: 105%; 
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip-left:hover .tooltiptext-left {
     visibility: visible;
   }
