@@ -4126,12 +4126,12 @@
 
 /* This one is for top  */
 
-.tooltip-top {
+.tt-top {
     position: relative;
     display: inline-block;
   }
   
-  .tooltip-top .tooltiptext-top {
+  .tt-top .tt-text-top {
     width: 120px;
     bottom: 100%;
     left: 50%;
@@ -4144,18 +4144,18 @@
     z-index: 1;
   }
   
-  .tooltip-top:hover .tooltiptext-top {
+  .tt-top:hover .tt-text-top {
     visibility: visible;
   }
 
   /* This one is for bottom */
 
-  .tooltip-bottom {
+  .tt-bottom {
     position: relative;
     display: inline-block;
   }
   
-  .tooltip-bottom .tooltiptext-bottom{
+  .tt-bottom .tt-text-bottom{
     width: 120px;
     bottom: 100%;
     left: 50%;
@@ -4168,7 +4168,7 @@
     z-index: 1;
   }
   
-  .tooltip-bottom:hover .tooltiptext-bottom {
+  .tt-bottom:hover .tt-text-bottom {
     visibility: visible;
   }
 
@@ -4177,12 +4177,12 @@
 
 /* This one is for right  */
 
-.tooltip-right {
+.tt-right {
     position: relative;
     display: inline-block;
   }
   
-  .tooltip-right .tooltiptext-right {
+  .tt-right .tt-text-right {
     width: 120px;
     bottom: 100%;
     left: 50%;
@@ -4197,18 +4197,18 @@
     z-index: 1;
   }
   
-  .tooltip-right:hover .tooltiptext-right {
+  .tt-right:hover .tt-text-right {
     visibility: visible;
   }
 
   /* This one is for left */
 
-  .tooltip-left {
+  .tt-left {
     position: relative;
     display: inline-block;
   }
   
-  .tooltip-left .tooltiptext-left {
+  .tt-left .tt-text-left {
     visibility: hidden;
     width: 120px;
     top: -5px;
@@ -4220,6 +4220,6 @@
     z-index: 1;
   }
   
-  .tooltip-left:hover .tooltiptext-left {
+  .tt-left:hover .tt-text-left {
     visibility: visible;
   }
