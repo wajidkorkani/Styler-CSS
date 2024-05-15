@@ -4088,4 +4088,114 @@
       font-family: 'Zilla Slab Highlight', sans-serif;
     }
   
+/* CSS animation  */
+
+.tt-top {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tt-top .tt-text-top {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    z-index: 1;
+  }
     
+  
+  .tt-top:hover .tt-text-top {
+    visibility: visible;
+  }
+  
+
+  /* For bottom  */
+
+.tt-bottom {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tt-bottom .tt-text-bottom {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tt-bottom:hover .tt-text-bottom {
+    visibility: visible;
+  }
+
+/* For left */
+.tt-bottom {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tt-left {
+    position: relative;
+}
+
+
+.tt-left .tt-text-left {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: -120px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+.tt-left:hover .tt-text-left {
+    visibility: visible;
+}
+/* For right */
+.tt-right {
+    position: relative;
+}
+
+.tt-right .tt-text-right {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    top: -5px;
+    left: 100%; 
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.tt-right:hover .tt-text-right {
+    visibility: visible;
+}
