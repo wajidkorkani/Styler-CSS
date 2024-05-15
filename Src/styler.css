@@ -4093,14 +4093,11 @@
 .tt-top {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
   
 .tt-top .tt-text-top {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -4123,14 +4120,11 @@
 .tt-bottom {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
   
   .tt-bottom .tt-text-bottom {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -4147,7 +4141,6 @@
 .tt-bottom {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
   }
   
   .tt-left {
@@ -4158,8 +4151,6 @@
 .tt-left .tt-text-left {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -4183,8 +4174,6 @@
 .tt-right .tt-text-right {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
