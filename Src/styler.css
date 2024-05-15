@@ -4200,8 +4200,6 @@
   }
   
   .move {
-    width: 100%;
-    height: 20px;
     position: relative;
     animation-name: example;
     animation-duration: 6s;
@@ -4209,4 +4207,8 @@
     animation-direction: alternate;
     animation-fill-mode: backwards;
     animation-delay: 3s;
+  }
+
+  .move:hover{
+    animation-play-state: paused;
   }
