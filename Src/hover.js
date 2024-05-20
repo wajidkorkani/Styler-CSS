@@ -2,16 +2,21 @@
 const head = document.querySelector('head');
 
 // Define an empty string to store CSS rules
-let bgColorCSS = '';
+let css = '';
 
 let bgColor = document.querySelectorAll('[class*=hover\\:bg-]');
 bgColor.forEach(element => {
   let smcolorClass = element.className.match(/hover\:bg\-(\S+)/);
   if (smcolorClass && smcolorClass.length > 1) {
     let colorName = smcolorClass[1];
-    bgColorCSS += `:hover.hover\\:bg-${colorName} { background-color: ${colorName}; }\n`;
+    css += `:hover.hover\\:bg-${colorName} { background-color: ${colorName}; }\n`;
   }
 });
+
+// Generated CSS rules for classes hover:rounded-1 to hover:rounded-1000
+for (let i = 1; i <= 1000; i++) {
+  css += `.hover\\:rounded-${i}:hover { border-radius: ${i}px; }\n`;
+}
 
 // Create a <style> element 
 const styleEl = document.createElement('style');
