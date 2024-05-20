@@ -6,9 +6,9 @@ let css = '';
 
 let bgColor = document.querySelectorAll('[class*=hover\\:bg-]');
 bgColor.forEach(element => {
-  let smcolorClass = element.className.match(/hover\:bg\-(\S+)/);
-  if (smcolorClass && smcolorClass.length > 1) {
-    let colorName = smcolorClass[1];
+  let colorClass = element.className.match(/hover\:bg\-(\S+)/);
+  if (colorClass && colorClass.length > 1) {
+    let colorName = colorClass[1];
     css += `:hover.hover\\:bg-${colorName} { background-color: ${colorName}; }\n`;
   }
 });
@@ -16,9 +16,9 @@ bgColor.forEach(element => {
 
 let TextColor = document.querySelectorAll('[class*=hover\\:text-]');
 bgColor.forEach(element => {
-  let smcolorClass = element.className.match(/hover\:text\-(\S+)/);
-  if (smcolorClass && smcolorClass.length > 1) {
-    let colorName = smcolorClass[1];
+  let colorClass = element.className.match(/hover\:text\-(\S+)/);
+  if (colorClass && colorClass.length > 1) {
+    let colorName = colorClass[1];
     css += `:hover.hover\\:text-${colorName} { color: ${colorName}; }\n`;
   }
 });
