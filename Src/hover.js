@@ -43,6 +43,13 @@ for (let i = 1; i <= 1000; i++) {
   css += `:hover.hover\\:margin-bottom-${i} { margin-bottom: ${i}px; }\n`;
   css += `:hover.hover\\:margin-left-${i} { margin-left: ${i}px; }\n`;
   css += `:hover.hover\\:margin-right-${i} { margin-right: ${i}px; }\n`;
+
+  // Padding section 
+  css += `:hover.hover\\:padding-${i} { padding: ${i}px; }\n`;
+  css += `:hover.hover\\:padding-top-${i} { padding-top: ${i}px; }\n`;
+  css += `:hover.hover\\:padding-bottom-${i} { padding-bottom: ${i}px; }\n`;
+  css += `:hover.hover\\:padding-left-${i} { padding-left: ${i}px; }\n`;
+  css += `:hover.hover\\:padding-right-${i} { padding-right: ${i}px; }\n`;
 }
 
 // Create a <style> element 
