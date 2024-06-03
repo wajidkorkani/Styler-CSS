@@ -962,467 +962,467 @@
 
 
 /* Hover Effects for Text Colors */
-.h-t-red:hover {
+.h-text-red:hover {
     color: darkred;
 }
 
-.h-t-yellow:hover {
+.h-text-yellow:hover {
     color: darkgoldenrod;
 }
 
-.h-t-green:hover {
+.h-text-green:hover {
     color: darkgreen;
 }
 
-.h-t-blue:hover {
+.h-text-blue:hover {
     color: darkblue;
 }
 
-.h-t-black:hover {
+.h-text-black:hover {
     color: black;
 }
 
-.h-t-gray:hover {
+.h-text-gray:hover {
     color: darkgray;
 }
 
-.h-t-white:hover {
+.h-text-white:hover {
     color: whitesmoke;
 }
 
-.h-t-dark-blue:hover {
+.h-text-dark-blue:hover {
     color: midnightblue;
 }
 
-.h-t-dark-green:hover {
+.h-text-dark-green:hover {
     color: darkgreen;
 }
 
-.h-t-dark-yellow:hover {
+.h-text-dark-yellow:hover {
     color: darkgoldenrod;
 }
 
-.h-t-orange:hover {
+.h-text-orange:hover {
     color: darkorange;
 }
 
-.h-t-orange-red:hover {
+.h-text-orange-red:hover {
     color: orangered;
 }
 
-.h-t-dark-red:hover {
+.h-text-dark-red:hover {
     color: darkred;
 }
 
-.h-t-light-red:hover {
+.h-text-light-red:hover {
     color: lightcoral;
 }
 
-.h-t-dark-orange:hover {
+.h-text-dark-orange:hover {
     color: darkorange;
 }
 
-.h-t-light-orange:hover {
+.h-text-light-orange:hover {
     color: lightcoral;
 }
 
-.h-t-dark-yellow:hover {
+.h-text-dark-yellow:hover {
     color: darkgoldenrod;
 }
 
-.h-t-light-yellow:hover {
+.h-text-light-yellow:hover {
     color: lightyellow;
 }
 
-.h-t-dark-green:hover {
+.h-text-dark-green:hover {
     color: darkgreen;
 }
 
-.h-t-light-green:hover {
+.h-text-light-green:hover {
     color: lightgreen;
 }
 
-.h-t-dark-blue:hover {
+.h-text-dark-blue:hover {
     color: darkblue;
 }
 
-.h-t-light-blue:hover {
+.h-text-light-blue:hover {
     color: lightblue;
 }
 
-.h-t-dark-purple:hover {
+.h-text-dark-purple:hover {
     color: darkviolet;
 }
 
-.h-t-light-purple:hover {
+.h-text-light-purple:hover {
     color: lavender;
 }
 
-.h-t-dark-pink:hover {
+.h-text-dark-pink:hover {
     color: darkmagenta;
 }
 
-.h-t-light-pink:hover {
+.h-text-light-pink:hover {
     color: lightpink;
 }
 
-.h-t-dark-brown:hover {
+.h-text-dark-brown:hover {
     color: saddlebrown;
 }
 
-.h-t-light-brown:hover {
+.h-text-light-brown:hover {
     color: burlywood;
 }
 
-.h-t-black:hover {
+.h-text-black:hover {
     color: black;
 }
 
-.h-t-light-black:hover {
+.h-text-light-black:hover {
     color: dimgray;
 }
 
-.h-t-dark-white:hover {
+.h-text-dark-white:hover {
     color: #f5f5f5;
 }
 
-.h-t-light-white:hover {
+.h-text-light-white:hover {
     color: whitesmoke;
 }
 
-.h-t-dark-gray:hover {
+.h-text-dark-gray:hover {
     color: darkgray;
 }
 
-.h-t-light-gray:hover {
+.h-text-light-gray:hover {
     color: lightgray;
 }
 
-.h-t-dark-cyan:hover {
+.h-text-dark-cyan:hover {
     color: darkcyan;
 }
 
-.h-t-light-cyan:hover {
+.h-text-light-cyan:hover {
     color: lightcyan;
 }
 
-.h-t-dark-magenta:hover {
+.h-text-dark-magenta:hover {
     color: darkmagenta;
 }
 
-.h-t-light-magenta:hover {
+.h-text-light-magenta:hover {
     color: magenta;
 }
 
-.h-t-dark-indigo:hover {
+.h-text-dark-indigo:hover {
     color: indigo;
 }
 
-.h-t-light-indigo:hover {
+.h-text-light-indigo:hover {
     color: mediumslateblue;
 }
 
-.h-t-dark-turquoise:hover {
+.h-text-dark-turquoise:hover {
     color: darkturquoise;
 }
 
-.h-t-light-turquoise:hover {
+.h-text-light-turquoise:hover {
     color: aquamarine;
 }
 
-.h-t-dark-lavender:hover {
+.h-text-dark-lavender:hover {
     color: darkviolet;
 }
 
-.h-t-light-lavender:hover {
+.h-text-light-lavender:hover {
     color: lavender;
 }
 
-.h-t-dark-maroon:hover {
+.h-text-dark-maroon:hover {
     color: maroon;
 }
 
-.h-t-light-maroon:hover {
+.h-text-light-maroon:hover {
     color: brown;
 }
 
-.h-t-dark-coral:hover {
+.h-text-dark-coral:hover {
     color: coral;
 }
 
-.h-t-light-coral:hover {
+.h-text-light-coral:hover {
     color: lightcoral;
 }
 
-.h-t-dark-gold:hover {
+.h-text-dark-gold:hover {
     color: goldenrod;
 }
 
-.h-t-light-gold:hover {
+.h-text-light-gold:hover {
     color: gold;
 }
 
-.h-t-dark-silver:hover {
+.h-text-dark-silver:hover {
     color: silver;
 }
 
-.h-t-light-silver:hover {
+.h-text-light-silver:hover {
     color: lightgrey;
 }
 
-.h-t-dark-olive:hover {
+.h-text-dark-olive:hover {
     color: olive;
 }
 
-.h-t-light-olive:hover {
+.h-text-light-olive:hover {
     color: olivedrab;
 }
 
-.h-t-dark-teal:hover {
+.h-text-dark-teal:hover {
     color: darkcyan;
 }
 
-.h-t-light-teal:hover {
+.h-text-light-teal:hover {
     color: darkcyan;
 }
 
-.h-t-dark-violet:hover {
+.h-text-dark-violet:hover {
     color: darkviolet;
 }
 
-.h-t-light-violet:hover {
+.h-text-light-violet:hover {
     color: violet;
 }
 
-.h-t-dark-peach:hover {
+.h-text-dark-peach:hover {
     color: peachpuff;
 }
 
-.h-t-light-peach:hover {
+.h-text-light-peach:hover {
     color: peachpuff;
 }
 
-.h-t-dark-slate:hover {
+.h-text-dark-slate:hover {
     color: slategrey;
 }
 
-.h-t-light-slate:hover {
+.h-text-light-slate:hover {
     color: lightslategray;
 }
 
-.h-t-dark-burgundy:hover {
+.h-text-dark-burgundy:hover {
     color: #800020;
 }
 
-.h-t-light-burgundy:hover {
+.h-text-light-burgundy:hover {
     color: #800020;
 }
 
-.h-t-dark-beige:hover {
+.h-text-dark-beige:hover {
     color: beige;
 }
 
-.h-t-light-beige:hover {
+.h-text-light-beige:hover {
     color: beige;
 }
 
-.h-t-dark-mauve:hover {
+.h-text-dark-mauve:hover {
     color: #b784a7;
 }
 
-.h-t-light-mauve:hover {
+.h-text-light-mauve:hover {
     color: #b784a7;
 }
 
-.h-t-dark-ivory:hover {
+.h-text-dark-ivory:hover {
     color: ivory;
 }
 
-.h-t-light-ivory:hover {
+.h-text-light-ivory:hover {
     color: ivory;
 }
 
-.h-t-dark-charcoal:hover {
+.h-text-dark-charcoal:hover {
     color: #36454f;
 }
 
-.h-t-light-charcoal:hover {
+.h-text-light-charcoal:hover {
     color: #36454f;
 }
 
-.h-t-dark-crimson:hover {
+.h-text-dark-crimson:hover {
     color: crimson;
 }
 
-.h-t-light-crimson:hover {
+.h-text-light-crimson:hover {
     color: crimson;
 }
 
-.h-t-dark-azure:hover {
+.h-text-dark-azure:hover {
     color: azure;
 }
 
-.h-t-light-azure:hover {
+.h-text-light-azure:hover {
     color: azure;
 }
 
-.h-t-dark-emerald:hover {
+.h-text-dark-emerald:hover {
     color: #50c878;
 }
 
-.h-t-light-emerald:hover {
+.h-text-light-emerald:hover {
     color: #50c878;
 }
 
-.h-t-dark-ruby:hover {
+.h-text-dark-ruby:hover {
     color: #e0115f;
 }
 
-.h-t-light-ruby:hover {
+.h-text-light-ruby:hover {
     color: #e0115f;
 }
 
-.h-t-dark-sapphire:hover {
+.h-text-dark-sapphire:hover {
     color: #0f52ba;
 }
 
-.h-t-light-sapphire:hover {
+.h-text-light-sapphire:hover {
     color: #0f52ba;
 }
 
-.h-t-dark-lemon:hover {
+.h-text-dark-lemon:hover {
     color: lemonchiffon;
 }
 
-.h-t-light-lemon:hover {
+.h-text-light-lemon:hover {
     color: lemonchiffon;
 }
 
-.h-t-dark-orchid:hover {
+.h-text-dark-orchid:hover {
     color: darkorchid;
 }
 
-.h-t-light-orchid:hover {
+.h-text-light-orchid:hover {
     color: orchid;
 }
 
-.h-t-dark-tan:hover {
+.h-text-dark-tan:hover {
     color: tan;
 }
 
-.h-t-light-tan:hover {
+.h-text-light-tan:hover {
     color: tan;
 }
 
-.h-t-dark-aquamarine:hover {
+.h-text-dark-aquamarine:hover {
     color: aquamarine;
 }
 
-.h-t-light-aquamarine:hover {
+.h-text-light-aquamarine:hover {
     color: aquamarine;
 }
 
-.h-t-dark-chartreuse:hover {
+.h-text-dark-chartreuse:hover {
     color: chartreuse;
 }
 
-.h-t-light-chartreuse:hover {
+.h-text-light-chartreuse:hover {
     color: chartreuse;
 }
 
-.h-t-dark-fuchsia:hover {
+.h-text-dark-fuchsia:hover {
     color: fuchsia;
 }
 
-.h-t-light-fuchsia:hover {
+.h-text-light-fuchsia:hover {
     color: fuchsia;
 }
 
-.h-t-dark-periwinkle:hover {
+.h-text-dark-periwinkle:hover {
     color: #ccccff;
 }
 
-.h-t-light-periwinkle:hover {
+.h-text-light-periwinkle:hover {
     color: #ccccff;
 }
 
-.h-t-dark-tangerine:hover {
+.h-text-dark-tangerine:hover {
     color: #f28500;
 }
 
-.h-t-light-tangerine:hover {
+.h-text-light-tangerine:hover {
     color: #f28500;
 }
 
-.h-t-dark-rose:hover {
+.h-text-dark-rose:hover {
     color: #ff007f;
 }
 
-.h-t-light-rose:hover {
+.h-text-light-rose:hover {
     color: #ff007f;
 }
 
-.h-t-dark-mint:hover {
+.h-text-dark-mint:hover {
     color: #98ff98;
 }
 
-.h-t-light-mint:hover {
+.h-text-light-mint:hover {
     color: #98ff98;
 }
 
-.h-t-dark-lilac:hover {
+.h-text-dark-lilac:hover {
     color: #c8a2c8;
 }
 
-.h-t-light-lilac:hover {
+.h-text-light-lilac:hover {
     color: #c8a2c8;
 }
 
-.h-t-dark-amber:hover {
+.h-text-dark-amber:hover {
     color: #ffbf00;
 }
 
-.h-t-light-amber:hover {
+.h-text-light-amber:hover {
     color: #ffbf00;
 }
 
-.h-t-dark-cyan-blue:hover {
+.h-text-dark-cyan-blue:hover {
     color: #00ffff;
 }
 
-.h-t-light-cyan-blue:hover {
+.h-text-light-cyan-blue:hover {
     color: #00ffff;
 }
 
-.h-t-dark-light-green:hover {
+.h-text-dark-light-green:hover {
     color: #90ee90;
 }
 
-.h-t-light-light-green:hover {
+.h-text-light-light-green:hover {
     color: #90ee90;
 }
 
-.h-t-dark-sky-blue:hover {
+.h-text-dark-sky-blue:hover {
     color: #87ceeb;
 }
 
-.h-t-light-sky-blue:hover {
+.h-text-light-sky-blue:hover {
     color: #87ceeb;
 }
 
-.h-t-dark-mauve:hover {
+.h-text-dark-mauve:hover {
     color: #b784a7;
 }
 
-.h-t-light-mauve:hover {
+.h-text-light-mauve:hover {
     color: #b784a7;
 }
 
-.h-t-dark-crimson:hover {
+.h-text-dark-crimson:hover {
     color: #dc143c;
 }
 
-.h-t-light-crimson:hover {
+.h-text-light-crimson:hover {
     color: #dc143c;
 }
 
