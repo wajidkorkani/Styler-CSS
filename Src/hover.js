@@ -31,12 +31,12 @@ for (let i = 1; i <= 1000; i++) {
 
   // Size section 
 
-  css += `:hover.hover\\:min-w-${i} { min-width: ${i}px; }\n`;
-  css += `:hover.hover\\:min-h-${i} { min-height: ${i}px; }\n`;
-  css += `:hover.hover\\:max-w-${i} { max-width: ${i}px; }\n`;
-  css += `:hover.hover\\:max-h-${i} { max-height: ${i}px; }\n`;
-  css += `:hover.hover\\:w-${i} { width: ${i}px; }\n`;
-  css += `:hover.hover\\:h-${i} { height: ${i}px; }\n`;
+  css += `:hover.hover\\:min-width-${i} { min-width: ${i}px; }\n`;
+  css += `:hover.hover\\:min-height-${i} { min-height: ${i}px; }\n`;
+  css += `:hover.hover\\:max-width-${i} { max-width: ${i}px; }\n`;
+  css += `:hover.hover\\:max-height-${i} { max-height: ${i}px; }\n`;
+  css += `:hover.hover\\:width-${i} { width: ${i}px; }\n`;
+  css += `:hover.hover\\:height-${i} { height: ${i}px; }\n`;
 
   // Font size 
   css += `:hover.hover\\:font-${i} { font-size: ${i}px; }\n`;
