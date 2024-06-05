@@ -4222,7 +4222,7 @@
   100% {left:0px; top:0px; transform: rotate(360deg);}
 }
 
-.move-rl {
+.move-right-left {
   position: relative;
   animation-name: example;
   animation-duration: 6s;
@@ -4232,6 +4232,6 @@
   animation-delay: 3s;
 }
 
-.move-rl:hover{
+.move-right-left:hover{
   animation-play-state: paused;
 }
