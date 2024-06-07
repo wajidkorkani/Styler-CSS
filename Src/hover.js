@@ -4,6 +4,7 @@ const head = document.querySelector('head');
 // Define an empty string to store CSS rules
 let css = '';
 
+// Background color section 
 let bgColor = document.querySelectorAll('[class*=hover\\:bg-]');
 bgColor.forEach(element => {
   let colorClass = element.className.match(/hover\:bg\-(\S+)/);
@@ -13,7 +14,7 @@ bgColor.forEach(element => {
   }
 });
 
-
+// Text/Font color section
 let TextColor = document.querySelectorAll('[class*=hover\\:text-]');
 bgColor.forEach(element => {
   let colorClass = element.className.match(/hover\:text\-(\S+)/);
