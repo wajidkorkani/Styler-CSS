@@ -4090,12 +4090,12 @@
   
 /* CSS animation  */
 
-.tt-top {
+.text-tooltip-top {
     position: relative;
     display: inline-block;
   }
   
-.tt-top .tt-text-top {
+.text-tooltip-top .text-tooltip-text-top {
     visibility: hidden;
     width: 120px;
     bottom: 100%;
@@ -4110,19 +4110,19 @@
   }
     
   
-  .tt-top:hover .tt-text-top {
+.text-tooltip-top:hover .text-tooltip-text-top {
     visibility: visible;
   }
   
 
   /* For bottom  */
 
-.tt-bottom {
+.text-tooltip-bottom {
     position: relative;
     display: inline-block;
   }
   
-  .tt-bottom .tt-text-bottom {
+.text-tooltip-bottom .text-tooltip-text-bottom {
     visibility: hidden;
     width: 120px;
     text-align: center;
@@ -4133,22 +4133,22 @@
     z-index: 1;
   }
   
-  .tt-bottom:hover .tt-text-bottom {
+.text-tooltip-bottom:hover .text-tooltip-text-bottom {
     visibility: visible;
   }
 
 /* For left */
-.tt-bottom {
+.text-tooltip-bottom {
     position: relative;
     display: inline-block;
   }
   
-  .tt-left {
+.text-tooltip-left {
     position: relative;
 }
 
 
-.tt-left .tt-text-left {
+.text-tooltip-left .text-tooltip-text-left {
     visibility: hidden;
     width: 120px;
     text-align: center;
@@ -4163,15 +4163,15 @@
     pointer-events: none;
 }
 
-.tt-left:hover .tt-text-left {
+.text-tooltip-left:hover .text-tooltip-text-left {
     visibility: visible;
 }
 /* For right */
-.tt-right {
+.text-tooltip-right {
     position: relative;
 }
 
-.tt-right .tt-text-right {
+.text-tooltip-right .text-tooltip-text-right {
     visibility: hidden;
     width: 120px;
     text-align: center;
@@ -4185,7 +4185,7 @@
 
 }
 
-.tt-right:hover .tt-text-right {
+.text-tooltip-right:hover .text-tooltip-text-right {
     visibility: visible;
 }
 
