@@ -2525,121 +2525,121 @@
     border-radius: 0.3rem; 
 }
 /* Class for adding rounded border on the left side with medium radius */
-.rounded-l-md {
+.rounded-left-md {
     border-top-left-radius: 0.5rem; 
     border-bottom-left-radius: 0.5rem; 
 }
 
 /* Class for adding rounded border on the right side with medium radius */
-.rounded-r-md {
+.rounded-right-md {
     border-top-right-radius: 0.5rem; 
     border-bottom-right-radius: 0.5rem; 
 }
 
 /* Class for adding rounded border on the top side with medium radius */
-.rounded-t-md {
+.rounded-top-md {
     border-top-left-radius: 0.5rem; 
     border-top-right-radius: 0.5rem; 
 }
 
 /* Class for adding rounded border on the bottom side with medium radius */
-.rounded-b-md {
+.rounded-bottom-md {
     border-bottom-left-radius: 0.5rem; 
     border-bottom-right-radius: 0.5rem; 
 }
 
 /* Class for adding rounded border on the left side with small radius */
-.rounded-l-sm {
+.rounded-left-sm {
     border-top-left-radius: 0.25rem; 
     border-bottom-left-radius: 0.25rem; 
 }
 
 /* Class for adding rounded border on the right side with small radius */
-.rounded-r-sm {
+.rounded-right-sm {
     border-top-right-radius: 0.25rem; 
     border-bottom-right-radius: 0.25rem; 
 }
 
 /* Class for adding rounded border on the top side with small radius */
-.rounded-t-sm {
+.rounded-top-sm {
     border-top-left-radius: 0.25rem; 
     border-top-right-radius: 0.25rem; 
 }
 
 /* Class for adding rounded border on the bottom side with small radius */
-.rounded-b-sm {
+.rounded-bottom-sm {
     border-bottom-left-radius: 0.25rem; 
     border-bottom-right-radius: 0.25rem; 
 }
 
 /* Class for adding rounded border on the left side with large radius */
-.rounded-l-lg {
+.rounded-left-lg {
     border-top-left-radius: 0.75rem; 
     border-bottom-left-radius: 0.75rem; 
 }
 
 /* Class for adding rounded border on the right side with large radius */
-.rounded-r-lg {
+.rounded-right-lg {
     border-top-right-radius: 0.75rem; 
     border-bottom-right-radius: 0.75rem; 
 }
 
 /* Class for adding rounded border on the top side with large radius */
-.rounded-t-lg {
+.rounded-top-lg {
     border-top-left-radius: 0.75rem; 
     border-top-right-radius: 0.75rem; 
 }
 
 /* Class for adding rounded border on the bottom side with large radius */
-.rounded-b-lg {
+.rounded-bottom-lg {
     border-bottom-left-radius: 0.75rem; 
     border-bottom-right-radius: 0.75rem; 
 }
 
 /* Class for adding rounded border on the left side with extra-small radius */
-.rounded-l-xs {
+.rounded-left-xs {
     border-top-left-radius: 0.125rem; 
     border-bottom-left-radius: 0.125rem; 
 }
 
 /* Class for adding rounded border on the right side with extra-small radius */
-.rounded-r-xs {
+.rounded-right-xs {
     border-top-right-radius: 0.125rem; 
     border-bottom-right-radius: 0.125rem; 
 }
 
 /* Class for adding rounded border on the top side with extra-small radius */
-.rounded-t-xs {
+.rounded-top-xs {
     border-top-left-radius: 0.125rem; 
     border-top-right-radius: 0.125rem; 
 }
 
 /* Class for adding rounded border on the bottom side with extra-small radius */
-.rounded-b-xs {
+.rounded-botthom-xs {
     border-bottom-left-radius: 0.125rem;
     border-bottom-right-radius: 0.125rem;
 }
 
 /* Class for adding rounded border on the left side with extra-large radius */
-.rounded-l-xl {
+.rounded-left-xl {
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
 
 /* Class for adding rounded border on the right side with extra-large radius */
-.rounded-r-xl {
+.rounded-right-xl {
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
 
 /* Class for adding rounded border on the top side with extra-large radius */
-.rounded-t-xl {
+.rounded-top-xl {
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 }
 
 /* Class for adding rounded border on the bottom side with extra-large radius */
-.rounded-b-xl {
+.rounded-bottom-xl {
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
@@ -2747,7 +2747,7 @@
     white-space: 12px;
 }
 
-.hr-d-orange{
+.hr-dark-orange{
     background-color: darkorange;
     border-radius: 20px;
     border-spacing: 6px;
@@ -2755,7 +2755,7 @@
     white-space: 12px;
 }
 
-.hr-d-red{
+.hr-dark-red{
     background-color: darkred;
     border-radius: 20px;
     border-spacing: 6px;
@@ -2780,7 +2780,7 @@
     white-space: 12px;
 }
 
-.hr-d-green{
+.hr-dark-green{
     background-color: darkgreen;
     border-radius: 20px;
     border-spacing: 6px;
@@ -2789,7 +2789,7 @@
 }
 
 
-.hr-d-gray{
+.hr-dark-gray{
     background-color: darkgrey;
     border-radius: 20px;
     border-spacing: 6px;
@@ -2843,8 +2843,12 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
 }
-.w-full{
+.width-full{
     width: 100%;
+}
+
+.height-full{
+    height: 100%;
 }
 
 /* Font styles */
