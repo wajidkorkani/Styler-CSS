@@ -40,7 +40,7 @@ for (let i = 1; i <= 1000; i++) {
   css += `:hover.hover\\:height-${i} { height: ${i}px; }\n`;
 
   // Font size 
-  css += `:hover.hover\\:font-${i} { font-size: ${i}px; }\n`;
+  css += `:hover.hover\\:text-${i} { font-size: ${i}px; }\n`;
 
   // Margin section 
   css += `:hover.hover\\:margin-top-${i} { margin-top: ${i}px; }\n`;
