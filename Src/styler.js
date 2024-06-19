@@ -27,7 +27,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `.col-span-${i} { grid-column-start: span ${i}; }\n`;
   css += `.row-span-${i} { grid-row-start: span ${i}; }\n`;
 
-  // Media query section for small size
+  // Media query section for small screen size
   css += `@media (max-width: 767px) { .small\\:width-${i} { width: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .small\\:height-${i} { height: ${i}px; } }\n`;
   css += `@media (max-width: 767px) { .small\\:max-width-${i} { max-width: ${i}px; } }\n`;
@@ -47,7 +47,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (max-width: 767px) { .small\\:grid { display: grid; } }\n`;
 
 
-  // Media query section for medium size
+  // Media query section for medium screen size
   css += `@media (min-width: 768px) { .medium\\:width-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .medium\\:height-${i} { height: ${i}px; } }\n`;
   css += `@media (min-width: 768px) { .medium\\:max-width-${i} { max-width: ${i}px; } }\n`;
@@ -66,7 +66,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 768px) { .medium\\:flex { display: flex; } }\n`;
   css += `@media (min-width: 768px) { .medium\\:grid { display: grid; } }\n`;
 
-  // Media query section for large size
+  // Media query section for large screen size
   css += `@media (min-width: 992px) { .large\\:width-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .large\\:height-${i} { height: ${i}px; } }\n`;
   css += `@media (min-width: 992px) { .large\\:max-width-${i} { max-width: ${i}px; } }\n`;
@@ -85,7 +85,7 @@ for (let i = 1; i <= 4000; i++) {
   css += `@media (min-width: 992px) { .large\\:flex { display: flex; } }\n`;
   css += `@media (min-width: 992px) { .large\\:grid { display: grid; } }\n`;
 
-  // Media query section for extra large size
+  // Media query section for extra large screen size
   css += `@media (min-width: 1200px) { .xl\\:width-${i} { width: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:height-${i} { height: ${i}px; } }\n`;
   css += `@media (min-width: 1200px) { .xl\\:max-width-${i} { max-width: ${i}px; } }\n`;
