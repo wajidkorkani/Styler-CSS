@@ -1,3 +1,5 @@
+// This file only applies hover styles it means this file is all about hover 
+
 // Select the <head> element
 const head = document.querySelector('head');
 
