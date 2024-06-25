@@ -1,3 +1,4 @@
+// For small screen 
 let smt = '';
 let smbgElementsC = document.querySelectorAll('[class*=small\\:text-], [class*=small\\:bg-]');
 
@@ -16,6 +17,7 @@ smbgElementsC.forEach(element => {
     }
 });
 
+// For medium screen 
 let mdt = '';
 let mdbgElementsC = document.querySelectorAll('[class*=medium\\:text-], [class*=medium\\:bg-]');
 
@@ -34,6 +36,7 @@ mdbgElementsC.forEach(element => {
     }
 });
 
+// For large screen 
 let lgt = '';
 let lgbgElementsC = document.querySelectorAll('[class*=large\\:text-], [class*=large\\:bg-]');
 
@@ -52,6 +55,7 @@ lgbgElementsC.forEach(element => {
     }
 });
 
+// For Extra Large screen 
 let xlt = '';
 let xlbgElementsC = document.querySelectorAll('[class*=xl\\:text-], [class*=xl\\:bg-]');
 
