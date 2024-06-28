@@ -1,3 +1,4 @@
+
 # Styler CSS
 
 Styler CSS is a lightweight CSS library designed to simplify the process of building user interfaces. It offers a concise and intuitive syntax that allows developers to write CSS code directly within HTML classes, enhancing readability and maintainability.
