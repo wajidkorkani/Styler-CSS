@@ -1,3 +1,80 @@
+/* UI changer from light to dark and from dark to light */
+/* UI theme chagner section */
+
+.dark{
+    background: #000;
+    color: white;
+}
+
+.changeUI{
+    width: 10px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.darkModeEnabled{
+    height: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    width: 50px;
+    border: none;
+    outline: none;
+
+}
+
+.darkModeEnabled:hover{
+    border: 2px white solid;
+}
+
+.lightModeEnabled{
+    height: 50px;
+    border-radius: 100%;
+    background-color: transparent;
+    width: 50px;
+    border: none;
+
+}
+
+.lightModeEnabled:hover{
+    border: 2px black solid;
+}
+
+/* Uniqe class name is required here  */
+.WajidKorkanihasMadeThisThingPosibileSoYouCanUseThisInYourOwnProjectsByAddingOneClassInaButtonUsingStylerCSSMadeInPakistanAndThisClassIsForDarkModeHappyCoding{
+    min-width: 100px;
+    min-height: 30px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    border: 1px white solid;
+    outline: none;
+}
+
+.WajidKorkanihasMadeThisThingPosibileSoYouCanUseThisInYourOwnProjectsByAddingOneClassInaButtonUsingStylerCSSMadeInPakistanAndThisClassIsForDarkModeHappyCoding:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.WajidKorkanihasMadeThisThingPosibileSoYouCanUseThisInYourOwnProjectsByAddingOneClassInaButtonUsingStylerCSSMadeInPakistanAndThisClassIsForLightModeHappyCoding{
+    min-width: 100px;
+    min-height: 30px;
+    background-color: white;
+    color: #000;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    outline: none;
+}
+
+.WajidKorkanihasMadeThisThingPosibileSoYouCanUseThisInYourOwnProjectsByAddingOneClassInaButtonUsingStylerCSSMadeInPakistanAndThisClassIsForLightModeHappyCoding:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
 /* Text Colors */
 .text-red {
     color: red;
@@ -1722,7 +1799,7 @@
 
 .align-right {
     display: inline-block;
-    float: right;
+    /* float: right; */
 }
 
 .center{
