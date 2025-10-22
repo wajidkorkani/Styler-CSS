@@ -1,5 +1,4 @@
-// This file only applies hover styles it means this file is all about hover 
-
+// This script generates CSS rules for hover effects based on class names in the HTML document.
 // Select the <head> element
 const head = document.querySelector('head');
 
