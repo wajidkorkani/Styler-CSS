@@ -1,3 +1,4 @@
+// To make media queries for text color and background color based on class names
 // For small screen 
 let smt = '';
 let smbgElementsC = document.querySelectorAll('[class*=small\\:text-], [class*=small\\:bg-]');
