@@ -11,6 +11,23 @@ function generateGridClasses() {
         .inline-grid {
             display: inline-grid;
         }
+        
+        /* Grid Row Classes */
+        .grid-rows-1 { grid-template-rows: repeat(1, minmax(0, 1fr)); }
+        .grid-rows-2 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+        .grid-rows-3 { grid-template-rows: repeat(3, minmax(0, 1fr)); }
+        .grid-rows-4 { grid-template-rows: repeat(4, minmax(0, 1fr)); }
+        .grid-rows-5 { grid-template-rows: repeat(5, minmax(0, 1fr)); }
+        .grid-rows-6 { grid-template-rows: repeat(6, minmax(0, 1fr)); }
+        
+        .grid-rows-none { grid-template-rows: none; }
+        .grid-rows-auto { grid-template-rows: auto; }
+        
+        /* Grid Auto Rows */
+        .auto-rows-auto { grid-auto-rows: auto; }
+        .auto-rows-min { grid-auto-rows: min-content; }
+        .auto-rows-max { grid-auto-rows: max-content; }
+        .auto-rows-fr { grid-auto-rows: minmax(0, 1fr); }
     `;
 
     // Grid Template Columns
