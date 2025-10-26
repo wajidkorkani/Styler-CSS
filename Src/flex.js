@@ -94,6 +94,8 @@ function generateFlexClasses() {
 	document.head.appendChild(style);
 }
 
+
+
 // Auto-initialize
 if (typeof document !== 'undefined') {
 	document.addEventListener('DOMContentLoaded', generateFlexClasses);
