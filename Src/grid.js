@@ -1,5 +1,6 @@
 // Grid System Generator
 function generateGridClasses() {
+
     const stylesheet = document.createElement('style');
     let gridCSS = '';
 
@@ -32,6 +33,7 @@ function generateGridClasses() {
 
     // Grid Template Columns
     // Generate classes for 1-12 columns
+
     for (let i = 1; i <= 12; i++) {
         gridCSS += `
         .grid-cols-${i} {
@@ -40,6 +42,7 @@ function generateGridClasses() {
     }
 
     // Grid Column Span
+
     for (let i = 1; i <= 12; i++) {
         gridCSS += `
         .col-span-${i} {
