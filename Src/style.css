@@ -18,3 +18,33 @@
   }
 
 /* End of Dropdown section  */
+
+/* -----------------------------
+  Spin animation utilities
+  - Add `class="spin"` to rotate an element
+  - Variants: .spin-fast, .spin-slow, .spin-once, .spin-reverse, .spin-paused
+  Example: <i class="spin spin-fast">⟳</i>
+  ----------------------------- */
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spin {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  display: inline-block; /* ensure transform works on inline elements */
+}
+
+/* Variants */
+.spin-fast   { animation-duration: 0.5s !important; }
+.spin-slow   { animation-duration: 2s   !important; }
+.spin-once   { animation-iteration-count: 1 !important; }
+.spin-reverse{ animation-direction: reverse !important; }
+.spin-paused { animation-play-state: paused !important; }
+.spin-hover-pause:hover { animation-play-state: paused !important; }
+
