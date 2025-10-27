@@ -173,6 +173,36 @@ Use hover helpers from `hover.js`:
 <button class="hover-scale">Hover me</button>
 ```
 
+## Animations
+
+Styler provides a small set of animation utilities. A new spin utility was added to `Src/style.css` that can rotate any element.
+
+Usage examples:
+
+```html
+<!-- continuous 1s spin (default) -->
+<i class="spin">⟳</i>
+
+<!-- faster spin -->
+<i class="spin spin-fast">⟳</i>
+
+<!-- slow spin, pauses on hover -->
+<i class="spin spin-slow spin-hover-pause">⟳</i>
+
+<!-- run once -->
+<div class="spin spin-once">Spins once</div>
+
+<!-- reverse direction -->
+<div class="spin spin-reverse">Reverse</div>
+
+<!-- pause programmatically with .spin-paused -->
+<div class="spin spin-paused">Paused</div>
+```
+
+Notes:
+- The `.spin` utility uses `display:inline-block` so it works on inline elements (icons, text).
+- Variant helper classes use `!important` to make mixing with other utilities simpler; remove `!important` in `Src/style.css` if you prefer stricter cascade rules.
+
 ## Theme Switching
 
 `themeChanger.js` toggles theme classes (e.g., `theme-dark`) on the `body`. Example:
