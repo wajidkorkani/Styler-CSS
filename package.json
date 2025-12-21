@@ -1,6 +1,6 @@
 {
   "name": "@wajidkorkani/styler-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styler CSS library",
   "main": "Src/styler.min.js",
   "style": "Src/styler.min.css",
