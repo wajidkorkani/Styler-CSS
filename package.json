@@ -1,0 +1,19 @@
+{
+  "name": "@wajidkorkani/styler-css",
+  "version": "1.0.0",
+  "description": "Styler CSS library",
+  "main": "Src/styler.js",
+  "style": "Src/styler.css",
+  "files": [
+    "Src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wajidkorkani/Styler-CSS"
+  },
+  "author": "Wajid Korkani",
+  "license": "MIT"
+}
