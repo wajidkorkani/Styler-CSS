@@ -3299,7 +3299,7 @@
 
 
 
-@keyframes example {
+@keyframes move {
     0%   {left:0px; top:0px; transform: rotate(0deg);}
     25%  {left: 80%; top:0px; transform: rotate(90deg);}
     50%  {left:80%; top:80%; transform: rotate(180deg);}
@@ -3309,7 +3309,7 @@
   
   .move {
     position: relative;
-    animation-name: example;
+    animation-name: move;
     animation-duration: 6s;
     animation-iteration-count: 10;
     animation-direction: alternate;
@@ -3322,7 +3322,7 @@
   }
 
 
-@keyframes example {
+@keyframes move {
   0%   {left:0px; top:0px; transform: rotate(0deg);}
   25%  {left: 80%; top:0px; transform: rotate(90deg);}
   50%  {left:80%; top:0%; transform: rotate(180deg);}
@@ -3332,7 +3332,7 @@
 
 .move-right-left {
   position: relative;
-  animation-name: example;
+  animation-name: move;
   animation-duration: 6s;
   animation-iteration-count: 10;
   animation-direction: alternate;
