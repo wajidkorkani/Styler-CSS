@@ -3311,7 +3311,7 @@
     position: relative;
     animation-name: move;
     animation-duration: 6s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: backwards;
     animation-delay: 3s;
