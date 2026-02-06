@@ -233,8 +233,8 @@ Small complete example (grid + flex + theme):
 <html>
   <head>
     <link rel="stylesheet" href="styler.css">
-    <script src="grid.js"></script>
-    <script src="flex.js"></script>
+    <script src="grid.js" defer></script>
+    <script src="flex.js" defer></script>
   </head>
   <body>
     <header class="grid grid-cols-12 gap-4">
