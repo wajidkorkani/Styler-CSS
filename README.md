@@ -19,7 +19,7 @@ Include Styler CSS in your project by adding the following link to your HTML fil
 
 ```html
 <link rel="stylesheet" href="path/to/styler.css">
-<script src="path/to/styler.js"></script>
+<script src="path/to/styler.js" defer></script>
 ```
 
 ## Features
